@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>No BS URL Shortener</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">No BS URL shortener</h1>
+
+        <div class="input-group">
+            <input
+                type="text"
+                id="originalUrl"
+                placeholder="Paste your long URL here"
+            />
+        </div>
+
+        <div class="input-group copy-container">
+            <input
+                type="text"
+                id="shortUrl"
+                placeholder="Shortened URL will appear here"
+                readonly
+            />
+            <button id="copyBtn" title="Copy to clipboard">
+                Copy
+            </button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
