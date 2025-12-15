@@ -2,7 +2,7 @@ const originalUrlInput = document.getElementById("originalUrl");
 const shortUrlInput = document.getElementById("shortUrl");
 const copyBtn = document.getElementById("copyBtn");
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://YOUR-BACKEND.onrender.com";
 
 originalUrlInput.addEventListener("change", async () => {
     const originalUrl = originalUrlInput.value.trim();
