@@ -2,7 +2,7 @@ const originalUrlInput = document.getElementById("originalUrl");
 const shortUrlInput = document.getElementById("shortUrl");
 const copyBtn = document.getElementById("copyBtn");
 
-const API_BASE = "https://no-bs-url-shortner.onrender.com";
+const API_BASE = "https://ts-5321.onrender.com";
 
 originalUrlInput.addEventListener("change", async () => {
     const originalUrl = originalUrlInput.value.trim();
